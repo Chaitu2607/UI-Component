@@ -4723,22 +4723,31 @@ p-togglebutton.ng-dirty.ng-invalid>.p-togglebutton.p-button {
 .p-megamenu .p-megamenu-root-list>.p-menuitem>.p-menuitem-link {
     padding: 0.857rem;
     color: var(--secondary-color);
+    color:rebeccapurple;
+
     border-radius: 3px;
     transition: background-color 0.2s, box-shadow 0.2s;
     user-select: none;
 }
 
 .p-megamenu .p-megamenu-root-list>.p-menuitem>.p-menuitem-link .p-menuitem-text {
-    color: var(--secondary-color);
+    // color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 18px;
+    color:rebeccapurple;
 }
 
 .p-megamenu .p-megamenu-root-list>.p-menuitem>.p-menuitem-link .p-menuitem-icon {
-    color: var(--secondary-color);
+    // color: var(--secondary-color);
+    color:rebeccapurple;
+
     margin-right: 0.5rem;
 }
 
 .p-megamenu .p-megamenu-root-list>.p-menuitem>.p-menuitem-link .p-submenu-icon {
-    color: var(--secondary-color);
+    // color: var(--secondary-color);
+    color:rebeccapurple;
+
     margin-left: 0.5rem;
 }
 
